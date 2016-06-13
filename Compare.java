@@ -11,8 +11,10 @@ public class Compare {
 
     public static int getMax (int a, int b,int c, int d){
 
-        return   a > b ?
-                (a > c ? (a > d ? a : d) : (c > d ? c : d)):
-                (b > c ? (b > d ? b : d) : (c > d ? c : d));
+        int k = a > b ? a : b; // k = a or b
+        int l = c > d ? c : d; // l = c or d
+
+
+        return  k > l ? k : l;
     }
 }
