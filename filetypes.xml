@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="16">
     <extensionMap>
+      <mapping pattern="TestManager" type="CLASS" />
       <mapping pattern="LoginTest" type="CLASS" />
       <mapping pattern="pom.xml" type="PLAIN_TEXT" />
     </extensionMap>
